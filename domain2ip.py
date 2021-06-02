@@ -82,7 +82,7 @@ class scanner(threading.Thread):
 
 def nslookup(domain):
     try:
-        res = resolver.query(domain, "A")
+        res = resolver.resolve(domain, "A")
         return res[0].address
     except Exception as e:
         return

@@ -26,6 +26,9 @@ optional arguments:
 # 使用案例
 ~~~
 python domain2ip.py -f domains.txt -p 1-65535 -t 1000 -o data.csv
+或
+ps：脚本默认选择 domains.txt，可以不加-f 参数
+python domain2ip.py -p 1-65535 -t 1000 -o data.csv
 ~~~
 # 参考
 感谢 @[StudyCat404(https://github.com/StudyCat404/domain2ip) 大佬提供的脚本

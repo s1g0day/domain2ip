@@ -1,0 +1,6 @@
+dnspython
+ipwhois
+threading
+pycountry
+bs4
+requests
